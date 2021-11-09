@@ -1,0 +1,2694 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header_top">
+      <div class="container flexbox">
+        <div class="header_mob header_left flexbox">
+          <button type="button" class="hamburger hamburger--spin" aria-expanded="false" aria-controls="menu__list">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <button type="button" class="header__phone_mob" aria-expanded="false" aria-controls="popup__contacts">
+            <svg class="icon icon__contacts" width="24" height="24">
+              <use xlink:href="img/svgdefs.svg#icon-contacts2"></use>
+            </svg>
+          </button>
+          <button type="button" class="header__phone_search" aria-expanded="false" aria-controls="popup__search">
+            <svg class="icon icon__search" width="24" height="24">
+              <use xlink:href="img/svgdefs.svg#icon-search"></use>
+            </svg>
+          </button>
+        </div>
+        <a href="index.html" class="logo">
+          <picture>
+            <img src="img/logo.webp" width="200" height="100" alt="img">
+          </picture>
+        </a>
+        <form action="#" method="get" class="form__search search" id="popup__search">
+          <div class="formgroup">
+            <input type="search" name="search" placeholder="поиск товаров">
+          </div>
+          <div class="search__block search__resalt">
+            <div class="search__no__result">
+              Нет результата
+            </div>
+            <ul class="search__list scroll">
+              <li class="search__item">
+                <a href="product.html" class="search__a flexbox">
+                  <picture class="img_a">
+                    <img src="img/ipad-search.webp" alt="img">
+                  </picture>
+                  <div class="text">
+                    <div class="name">Автомобильное зарядное устройство LDNIO Fashional (2,1A) для iPad и iPhone</div>
+                    <div class="price"><span>0</span>грн</div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="search__item">
+                <a href="product.html" class="search__a flexbox">
+                  <picture class="img_a">
+                    <img src="img/iphone-search.webp" alt="img">
+                  </picture>
+                  <div class="text">
+                    <div class="name">Автомобильное зарядное устройство LDNIO Fashional (2,1A) для iPad и iPhone</div>
+                    <div class="price"><span>0</span>грн</div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="search__item">
+                <a href="product.html" class="search__a flexbox">
+                  <picture class="img_a">
+                    <img src="img/phone12.webp" alt="img">
+                  </picture>
+                  <div class="text">
+                    <div class="name">Автомобильное зарядное устройство LDNIO Fashional (2,1A) для iPad и iPhone</div>
+                    <div class="price"><span>0</span>грн</div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="search__item">
+                <a href="product.html" class="search__a flexbox">
+                  <picture class="img_a">
+                    <img src="img/iphone-white.webp" alt="img">
+                  </picture>
+                  <div class="text">
+                    <div class="name">Автомобильное зарядное устройство LDNIO Fashional (2,1A) для iPad и iPhone</div>
+                    <div class="price"><span>0</span>грн</div>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </form>
+        <div class="details flexbox">
+          <div class="details__item phones">
+            <div class="phones__item flexbox">
+              <svg class="icon icon__mts" width="20" height="20">
+                <use xlink:href="img/svgdefs.svg#icon-mts"></use>
+              </svg>
+              <a href="tel:+380504358888" class="phone__link" data-index="1">050-435-88-88</a>
+              <svg class="icon icon__arrow_down" width="12" height="12">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-arrow-down-light"></use>
+              </svg>
+            </div>
+            <div class="phones__dropdown">
+              <div class="phones__list">
+                <div class="phones__item flexbox">
+                  <svg class="icon icon__ks" width="20" height="20">
+                    <use xlink:href="img/svgdefs.svg#icon-ks"></use>
+                  </svg>
+                  <a href="tel:+380964358888" class="phone__link" data-index="2">096-435-88-88</a>
+                </div>
+              </div>
+              <button type="button" class="call">Перезвонить вам?</button>
+            </div>
+          </div>
+          <div class="details__item timetable flexbox">
+            <span class="icon__clock">&#9719;</span>
+            <div class="timetable__block">
+              <div class="title">График работы:</div>
+              <div class="text">
+                <p><strong>Пн-Сб:</strong> 10:00 - 20:00</p>
+                <p><strong>Вс: </strong> 10:00 - 18:00</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="action flexbox">
+
+          <button type="button" class="action__item comparison">
+            <svg class="icon icon__round__checkbox" width="30" height="30">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-round-checkbox-outline"></use>
+            </svg>
+          </button>
+
+
+          <button type="button" class="action__item favorit">
+            <svg class="icon icon__heart" width="30" height="30">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-outline"></use>
+            </svg>
+          </button>
+
+          <button type="button" class="action__item basket">
+            <svg class="icon icon__cart" width="34" height="34">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-cart-outline"></use>
+            </svg>
+            <span class="count">0</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+    <div class="header_bottom">
+      <div class="container flexbox">
+        <div class="header__menu flexbox">
+          <div class="header__catalog">
+            <div class="catalog__button">
+              Каталог
+              <svg class="icon icon__arrow_down_light" width="12" height="12">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-arrow-down-light"></use>
+              </svg>
+            </div>
+
+            <div class="catalog__block">
+              <ul class="catalog__list">
+                <li class="catalog__item arr">
+                  <a href="product__catalog.html" class="catalog__link">iPhone</a>
+                  <ul class="submenu flexbox">
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="catalog__item">
+                  <a href="product__catalog.html" class="catalog__link">iPad</a>
+                  <ul class="submenu flexbox">
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="catalog__item">
+                  <a href="product__catalog.html" class="catalog__link">Watch</a>
+                  <ul class="submenu flexbox">
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="catalog__item">
+                  <a href="product__catalog.html" class="catalog__link">Apple AirPods</a>
+                  <ul class="submenu flexbox">
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 14 Apple AirPods Apple AirPods
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 14
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="catalog__item">
+                  <a href="product__filter.html" class="catalog__link">iMac</a>
+                </li>
+                <li class="catalog__item">
+                  <a href="product__catalog.html" class="catalog__link">iPhone</a>
+                  <ul class="submenu flexbox">
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="catalog__item">
+                  <a href="product__catalog.html" class="catalog__link">iPad</a>
+                  <ul class="submenu flexbox">
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="catalog__item">
+                  <a href="product__catalog.html" class="catalog__link">Watch</a>
+                  <ul class="submenu flexbox">
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="catalog__item">
+                  <a href="product__catalog.html" class="catalog__link">Apple AirPods</a>
+                  <ul class="submenu flexbox">
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 14 Apple AirPods Apple AirPods
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 14
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+                    <li class="submenu__item">
+                      <a href="product__filter.html" class="link flexbox">
+                        <picture>
+                          <img src="img/iphone-mini.webp" alt="img">
+                        </picture>
+                        iPhone 13
+                      </a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="catalog__item">
+                  <a href="product__catalog.html" class="catalog__link">iMac</a>
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+          <nav class="navigation_desctop">
+            <ul class="menu flexbox">
+              <li class="menu__item"><a class="menu__link" href="garantiya.html">Гарантия</a></li>
+              <li class="menu__item"><a class="menu__link" href="contact.html">Контактная информация</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="lang" data-widget="lang_menu" data-skin="header_bottom_dropdown" data-show-icon="">
+          <div class="lang__menu__button lang__item">
+            Рус
+            <svg class="icon icon__arrow_down_light" width="12" height="12">
+              <use xlink:href="img/svgdefs.svg#icon-arrow-down-light"></use>
+            </svg>
+          </div>
+          <div class="lang__menu__dropdown">
+            <ul class="lang__menu__menu">
+              <li class="lang_menu__item">
+                <a href="/ua/" class="lang__item">
+                  Укр
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  <div class="overly"></div>
+  <nav class="navigation navigation_mob scroll" id="menu__list">
+    <div class="navigation_body">
+      <div class="menu__body">
+        <div class="catalog__menu menu__item_mob">
+          <button class="btn btn__catalog flexbox">
+            Каталог
+            <svg class="icon icon__arrow__left" width="16" height="16">
+              <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+            </svg>
+          </button>
+          <div class="catalog__block">
+            <ul class="catalog__list">
+              <li class="catalog__item arr">
+                <button type="button" class="catalog__link btn__arr">
+                  <picture>
+                    <img src="img/iphone-mini.webp" alt="img">
+                  </picture>
+                  iPhone
+                  <svg class="icon icon__arrow__left" width="16" height="16">
+                    <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                  </svg>
+                </button>
+
+                <ul class="submenu flexbox">
+                  <li class="submenu__item">
+                    <a href="product__catalog.html" class="link link__catalog flexbox">
+                      iPhone каталог
+                      <svg class="icon icon__arrow__left" width="16" height="16">
+                        <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="catalog__item arr">
+                <button type="button" class="catalog__link btn__arr">
+                  <picture>
+                    <img src="img/ipad-search.webp" alt="img">
+                  </picture>
+                  iPad
+                  <svg class="icon icon__arrow__left" width="16" height="16">
+                    <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                  </svg>
+                </button>
+                <ul class="submenu flexbox">
+                  <li class="submenu__item">
+                    <a href="product__catalog.html" class="link link__catalog flexbox">
+                      iPad каталог
+                      <svg class="icon icon__arrow__left" width="16" height="16">
+                        <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="catalog__item arr">
+                <button type="button" class="catalog__link btn__arr">
+                  <picture>
+                    <img src="img/watch.webp" alt="img">
+                  </picture>
+                  Watch
+                  <svg class="icon icon__arrow__left" width="16" height="16">
+                    <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                  </svg>
+                </button>
+                <ul class="submenu flexbox">
+                  <li class="submenu__item">
+                    <a href="product__catalog.html" class="link link__catalog flexbox">
+                      Watch каталог
+                      <svg class="icon icon__arrow__left" width="16" height="16">
+                        <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="catalog__item arr">
+                <button type="button" class="catalog__link btn__arr">
+                  <picture>
+                    <img src="img/airpods.webp" alt="img">
+                  </picture>
+                  Apple AirPods
+                  <svg class="icon icon__arrow__left" width="16" height="16">
+                    <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                  </svg>
+                </button>
+                <ul class="submenu flexbox">
+                  <li class="submenu__item">
+                    <a href="product__catalog.html" class="link link__catalog flexbox">
+                      Apple AirPods каталог
+                      <svg class="icon icon__arrow__left" width="16" height="16">
+                        <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 14 Apple AirPods Apple AirPods
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 14
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="catalog__item">
+                <a href="product__filter.html" class="catalog__link">
+                  <picture>
+                    <img src="img/watch.webp" alt="img">
+                  </picture>
+                  iMac
+                </a>
+              </li>
+              <li class="catalog__item arr">
+                <button type="button" class="catalog__link btn__arr">
+                  <picture>
+                    <img src="img/iphone-mini.webp" alt="img">
+                  </picture>
+                  iPhone
+                  <svg class="icon icon__arrow__left" width="16" height="16">
+                    <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                  </svg>
+                </button>
+                <ul class="submenu flexbox">
+                  <li class="submenu__item">
+                    <a href="product__catalog.html" class="link link__catalog flexbox">
+                      iPhone каталог
+                      <svg class="icon icon__arrow__left" width="16" height="16">
+                        <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="catalog__item arr">
+                <button type="button" class="catalog__link btn__arr">
+                  <picture>
+                    <img src="img/ipad-search.webp" alt="img">
+                  </picture>
+                  iPad
+                  <svg class="icon icon__arrow__left" width="16" height="16">
+                    <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                  </svg>
+                </button>
+                <ul class="submenu flexbox">
+                  <li class="submenu__item">
+                    <a href="product__catalog.html" class="link link__catalog flexbox">
+                      iPad каталог
+                      <svg class="icon icon__arrow__left" width="16" height="16">
+                        <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="catalog__item arr">
+                <button type="button" class="catalog__link btn__arr">
+                  <picture>
+                    <img src="img/watch.webp" alt="img">
+                  </picture>
+                  Watch
+                  <svg class="icon icon__arrow__left" width="16" height="16">
+                    <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                  </svg>
+                </button>
+                <ul class="submenu flexbox">
+                  <li class="submenu__item">
+                    <a href="product__catalog.html" class="link link__catalog flexbox">
+                      Watch каталог
+                      <svg class="icon icon__arrow__left" width="16" height="16">
+                        <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="catalog__item arr">
+                <button type="button" class="catalog__link btn__arr">
+                  <picture>
+                    <img src="img/airpods.webp" alt="img">
+                  </picture>
+                  Apple AirPods
+                  <svg class="icon icon__arrow__left" width="16" height="16">
+                    <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                  </svg>
+                </button>
+                <ul class="submenu flexbox">
+                  <li class="submenu__item">
+                    <a href="product__catalog.html" class="link link__catalog flexbox">
+                      Apple AirPods каталог
+                      <svg class="icon icon__arrow__left" width="16" height="16">
+                        <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 14 Apple AirPods Apple AirPods
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 14
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+                  <li class="submenu__item">
+                    <a href="product__filter.html" class="link flexbox">
+                      <picture>
+                        <img src="img/iphone-mini.webp" alt="img">
+                      </picture>
+                      iPhone 13
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="catalog__item">
+                <a href="product__filter.html" class="catalog__link">
+                  <picture>
+                    <img src="img/watch.webp" alt="img">
+                  </picture>
+                  iMac
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="menu menu__item_mob">
+          <li class="menu__item"><a class="menu__link" href="garantiya.html">Гарантия</a></li>
+          <li class="menu__item"><a class="menu__link" href="contact.html">Контактная информация</a></li>
+        </ul>
+        <a href="#" class="menu__item_mob comparison flexbox">
+          <svg class="icon icon__comparison" width="24" height="24">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison2"></use>
+          </svg>
+          Сравнение товаров
+        </a>
+        <a href="#" class="menu__item_mob cabinet">
+          <svg class="icon icon__profile" width="24" height="24">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-profile"></use>
+          </svg>
+          Вход для клиентов
+        </a>
+        <ul class="menu__item_mob phone phone__list">
+          <li class="phone__item">
+            <svg class="icon icon__phone" width="24" height="24">
+              <use xlink:href="img/svgdefs.svg#icon-phone2"></use>
+            </svg>
+            <a href="tel:+380504358888" data-index="1">050-435-88-88</a>
+          </li>
+          <li class="phone__item">
+            <a href="tel:+380964358888" data-index="2">096-435-88-88</a>
+          </li>
+          <li class="phone__item">
+            <svg class="icon icon__viber" width="24" height="24">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-viber2"></use>
+            </svg>
+            <a href="viber://chat?number=%2B380504358888">050-435-88-88</a>
+          </li>
+          <li class="phone__item">
+            <a href="viber://chat?number=%2B380964358888" class="main-nav__text">096-435-88-88</a>
+          </li>
+          <li class="phone__item">
+            <svg class="icon icon__telegram" width="24" height="24">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-telegram2"></use>
+            </svg>
+            <a href="tg://resolve?domain=%2B380504358888">+380504358888</a>
+          </li>
+          <li class="phone__item">
+            <svg class="icon icon__whatsapp" width="24" height="24">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-whatsapp2"></use>
+            </svg>
+            <a href="https://api.whatsapp.com/send?phone=380504358888">+380504358888</a>
+          </li>
+          <li class="phone__item">
+            <button type="button" class="call btn__small">Заказать звонок</button>
+          </li>
+        </ul>
+        <div class="menu__item_mob schedule flexbox">
+          <svg class="icon icon__timetable" width="24" height="24">
+            <use xlink:href="img/svgdefs.svg#icon-timetable2"></use>
+          </svg>
+          <div class="timetable">
+            <p><span>Пн-Сб:</span> 10:00 - 20:00</p>
+            <p><span>Вс:</span> 10:00 - 18:00</p>
+          </div>
+        </div>
+        <div class="menu__item_mob lang_mob flexbox">
+          <svg class="icon icon__lang" width="24" height="24">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-lang2"></use>
+          </svg>
+          <div class="lang__content">
+            <div class="title">Сайт на других языках</div>
+            <div class="lang flexbox">
+              <span>Рус</span>
+              <a href="#">Укр</a>
+            </div>
+          </div>
+        </div>
+        <div class="menu__item_mob">
+          <div class="title">Мы в соцсетях</div>
+          <ul class="soc flexbox">
+            <li class="soc__item">
+              <a href="#">
+                <svg class="social__icon icon icon__vk" width="32" height="16">
+                  <use xlink:href="img/svgdefs.svg#icon-vk3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item">
+              <a href="#">
+                <svg class="social__icon icon icon__fb" width="17" height="32">
+                  <use xlink:href="img/svgdefs.svg#icon-fb2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item">
+              <a href="#">
+                <svg class="social__icon icon icon__tw" width="32" height="32">
+                  <use xlink:href="img/svgdefs.svg#icon-tw2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item">
+              <a href="#">
+                <svg class="social__icon icon icon__ig" width="32" height="32">
+                  <use xlink:href="img/svgdefs.svg#icon-ig4"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main main__index">
+    <div class="banners">
+      <div class="container">
+        <div class="banners">
+          <a href="product.html" class="banner__link">
+            <picture>
+              <img src="img/banner-iphone.webp" alt="img">
+            </picture>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section__new">
+      <div class="container">
+        <h2>Новинки</h2>
+        <div class="catalogs slider__new slider__nav">
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-13-pro.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-12.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-12-mini.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-12-pro.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-catalog.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="section section__hit">
+      <div class="container">
+        <h2>Хиты продаж</h2>
+        <div class="catalogs slider__hit slider__nav">
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-13-pro.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-12.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-12-mini.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-12-pro.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="catalogs__item catalogs__full">
+              <a href="product.html">
+                <div class="marks">
+                  <div class="mark sale">РАСПРОДАЖА</div>
+                  <div class="mark new">НОВИНКА</div>
+                  <div class="mark hit">ХИТ</div>
+                </div>
+                <picture>
+                  <img src="img/iPhone-catalog.webp" alt="img">
+                </picture>
+                <div class="art">Артикул: <span>25100</span></div>
+                <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3) </div>
+              </a>
+              <div class="bottom">
+                <div class="price flexbox">
+                  <div class="price__block">
+                    <div class="cost"> 28 985 грн</div>
+                    <div class="presence presence_ok">В наличии </div>
+                  </div>
+                  <button type="button" class="btn btn__buy" aria-expanded="false" aria-controls="basket">Купить</button>
+                </div>
+                <div class="actions flexbox">
+                  <div class="actions__item wish flexbox">
+                    <svg class="icon icon__heart" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-heart-stroke"></use>
+                    </svg>
+                    В желания
+                  </div>
+                  <div class="actions__item comparison flexbox">
+                    <svg class="icon icon__comparison__s" width="20" height="20">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-comparison-s"></use>
+                    </svg>
+                    К сравнению
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="categories">
+      <div class="container">
+        <div class="slider__categories slider__nav categories__block flexbox">
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/phone.webp" alt="img">
+              </picture>
+              <figcaption>iPhone</figcaption>
+            </figure>
+            <span class="btn btn__category">Все категории</span>
+          </a>
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/ipad.webp" alt="img">
+              </picture>
+              <figcaption>iPad</figcaption>
+            </figure>
+            <span class="btn btn__category">Все категории</span>
+          </a>
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/watch.webp" alt="img">
+              </picture>
+              <figcaption>Watch</figcaption>
+            </figure>
+            <span class="btn btn__category">Все категории</span>
+          </a>
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/airpods.webp" alt="img">
+              </picture>
+              <figcaption>Apple AirPods</figcaption>
+            </figure>
+            <span class="btn btn__category">Все категории</span>
+          </a>
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/imac.webp" alt="img">
+              </picture>
+              <figcaption>iMac</figcaption>
+            </figure>
+            <span class="btn btn__category">Все категории</span>
+          </a>
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/macbook.webp" alt="img">
+              </picture>
+              <figcaption>MacBook</figcaption>
+            </figure>
+            <span class="btn btn__category">Все категории</span>
+          </a>
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/custom.webp" alt="img">
+              </picture>
+              <figcaption>Custom</figcaption>
+            </figure>
+            <span class="btn btn__category">Все категории</span>
+          </a>
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/macpro.webp" alt="img">
+              </picture>
+              <figcaption>MacPro</figcaption>
+            </figure>
+          </a>
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/custom.webp" alt="img">
+              </picture>
+              <figcaption>Custom</figcaption>
+            </figure>
+            <span class="btn btn__category">Все категории</span>
+          </a>
+          <a href="catalog.html" class="categories__item">
+            <figure>
+              <picture>
+                <img src="img/macpro.webp" alt="img">
+              </picture>
+              <figcaption>MacPro</figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section__info">
+      <div class="container">
+        <article>
+          <h1>Интернет-магазин электроники BlackMarket</h1>
+          <p>Сегодня американские производители предлагают покупателям обширный выбор смартфонов с «яблочным» логотипом в различных цветовых решениях. Практически каждый, кто держал в руках iPhone, знает, что смартфоны этого бренда отличаются от флагманов конкурентов эргономичностью, стильным дизайном, компактными габаритами и улучшенным функционалом.</p>
+          <p>Сегодня приобрести высокотехнологичные мобильные телефоны можно как в магазине техники, так и в интернет-магазине – достаточно пролистать каталог товаров, чтобы выбрать подходящую модель iPhone. Каждый экземпляр, независимо от стоимости, поразит своей реалистичной цветопередачей, мощным процессором, энергоемкостью батареи и огромным числом беспроводных интерфейсов. </p>
+          <p>В магазине электроники BlackMarket вы найдете самые последние модели техники Apple. </p>
+          <h2>Ассортимент техники в Блэк Маркет</h2>
+          <p>Интернет-магазин электроники BlackMarket предлагает вам полный каталог гаджетов от Apple:</p>
+          <ul>
+            <li><a href="#">iPhone</a>. Легендарные модели от 5S до 12 Pro Max – в вашей любимой цветовой гамме. </li>
+            <li><a href="#">iPad</a>. Полноценные рабочие гаджеты от корпорации Apple, которые способны на 100% заменить ноутбук или ПК. </li>
+            <li><a href="#">Apple Watch</a> – современные смарт-часы, благодаря которым можно не только узнавать точное время, но и пользоваться большим перечнем приложений, совместимых с iPhone.</li>
+            <li><a href="#">MacBook</a> – многофункциональные мобильные ПК, которые ценятся, благодаря долговечности, устойчивости к нагрузкам и, конечно же, оригинальному дизайну.</li>
+            <li><a href="#">iMac</a> – стильные компьютеры в монолитном корпусе с мощными процессорами, дисплеем Retina и передовой ОС для настольных ПК. </li>
+            <li><a href="#">Apple AirPods</a> – уникальные беспроводные наушники, которые подходят ко всем устройствам, включая смартфоны от Apple. Отличаются не только качеством, но и оригинальными футлярами, а также большим выбором чехлов к ним. </li>
+            <li><a href="#">Apple AirPort</a> – базовые станции Wi-Fi от корпорации Apple.</li>
+            <li><a href="#">Apple HomePod</a> – беспроводные смарт-динамики на голосовом управлении, использующие в работе облачный голосовой помощник Siri, который работает по принципу системы «вопрос-ответ». </li>
+            <li><a href="#">Apple Pencil</a> – линейка аксессуаров для беспроводных стилусов, которые подходят для использования с планшетами iPad.</li>
+            <li><a href="#">Apple TV</a> – мощные медиа-плееры, интегрированные в эко-систему продуктов Apple.</li>
+            <li><a href="#">Mac Mini</a> – мини-компьютеры из семейства Macintosh, которые поставляются без монитора, клавиатуры и мыши с расчетом, что у пользователя уже есть это оборудование от старого ПК или старого Макинтоша. </li>
+            <li><a href="#">Аксессуары</a> – всевозможные кабели, переходники, лампы, роутеры, экшен и IP-камеры и многое другое, что облегчит и дополнит комфортное использование продукции от Эппл. </li>
+          </ul>
+          <h2>Почему стоит покупать в магазине BlackMarket?</h2>
+          <p>Интернет-магазин техники BlackMarket следует всем главным ценностям корпорации Apple, предлагая «яблочные» продукты покупателям на рынке Украины. У нас вы можете купить технику Эппл по самым выгодным ценам и главное – с официальной гарантией. </p>
+          <p>Менеджеры нашего магазина техники в Киеве прошли специальную подготовку по продуктам Apple, поэтому всегда придут на помощь и дадут квалифицированный совет по выбору смартфона или другого продукта. </p>
+          <p>Наш онлайн-магазин отличается такими преимуществами:</p>
+          <ul>
+            <li>Свыше 999 новых смартфонов и аксессуаров к ним.</li>
+            <li>Более 400 довольных покупателей.</li>
+            <li>Сотни положительных отзывов.</li>
+            <li>Официальная продукция Apple.</li>
+          </ul>
+          <p>Блэк Маркет – онлайн-магазин электроники, который предлагает вам семейство продукции Apple с доставкой во все регионы Украины на отделение Новой Почты или другим удобным способом. </p>
+          <p>И главное – мы украинский интернет-магазин, а это значит, что вам не придется ожидать доставку вашего заказа неделями. Все товары в наличии на складе нашего магазина электроники в Киеве. </p>
+          <h2>Black Market – ваша безопасность, наша ответственность</h2>
+          <p>Если у вас есть опыт покупки бытовой техники в Украине в интернет-гипермаркетах, то вы знаете, сколько непредвиденных негативных ситуаций бывает связано с такими покупками. Техника для дома или различная цифровая техника могут долго следовать к вашему адресу доставки или приходить в неполной комплектации. С Black Market такие моменты полностью исключены, т.к. мы тщательно работаем над каждым вашим заказом, а главное – освобождаем вас от необходимости посещения шумных торговых центров и стояния в очередях за новыми моделями смартфонов или другой техники. </p>
+          <p>И, конечно же, у нас вас всегда ждут скидки и акции даже на самые дорогие группы товаров!</p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container flexbox">
+      <div class="footer__info">
+        <a href="#" class="logo">
+          <picture>
+            <img src="img/logo.webp" width="200" height="100" alt="img">
+          </picture>
+        </a>
+        <p class="copy">© 2020—2021</p>
+        <div class="payment">
+          <div class="title">Принимаем к оплате </div>
+          <ul class="payment__list flexbox">
+            <li class="payment__item">
+              <a href="#">
+                <picture>
+                  <img src="img/carta.webp" alt="img">
+                </picture>
+              </a>
+            </li>
+            <li class="payment__item">
+              <a href="#">
+                <picture>
+                  <img src="img/privat.webp" alt="img">
+                </picture>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="list">
+        <div class="heading">Каталог</div>
+        <ul class="footer__menu">
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">iPad</a></li>
+          <li><a href="#">Watch</a></li>
+          <li><a href="#">Apple AirPods</a></li>
+          <li><a href="#">iMac</a></li>
+          <li><a href="#">MacBook</a></li>
+          <li><a href="#">Custom</a></li>
+          <li><a href="#">MacPro</a></li>
+          <li><a href="#">MacMini</a></li>
+          <li><a href="#">Apple AirPort</a></li>
+          <li><a href="#">Apple TV</a></li>
+          <li><a href="#">iPod</a></li>
+          <li><a href="#">Apple HomePod</a></li>
+          <li><a href="#">Apple AirTag</a></li>
+          <li><a href="#">Apple Pencil</a></li>
+          <li><a href="#">Apple Magic Mouse</a></li>
+          <li><a href="#">Apple Magic Keyboard</a></li>
+          <li><a href="#">Apple Magic Trackpad</a></li>
+          <li><a href="#">Аксессуары</a></li>
+          <li><a href="#">Xiaomi</a></li>
+          <li><a href="#">x-Наушники</a></li>
+          <li><a href="#">Sony PS</a></li>
+        </ul>
+      </div>
+      <div class="list">
+        <div class="heading">Клиентам</div>
+        <ul class="footer__menu">
+          <li><a href="#">Вход в личный кабинет</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Оплата и доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Обмен и возврат</a></li>
+          <li><a href="#">Рассрочка/Кредит</a></li>
+          <li><a href="#">Trade-in</a></li>
+          <li><a href="#">Контактная информация</a></li>
+          <li><a href="#">Блог</a></li>
+        </ul>
+        <div class="social">
+          <div class="title">Мы в соцсетях </div>
+          <ul class="soc flexbox">
+            <li class="soc__item">
+              <a href="#">
+                <svg class="icon__vk" width="24" height="24">
+                  <use xlink:href="img/svgdefs.svg#icon-vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item">
+              <a href="#">
+                <svg class="icon__fb" width="24" height="24">
+                  <use xlink:href="img/svgdefs.svg#icon-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item">
+              <a href="#">
+                <svg class="icon__tw" width="24" height="24">
+                  <use xlink:href="img/svgdefs.svg#icon-tw"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc__item">
+              <a href="#">
+                <svg class="icon__ig" width="24" height="24">
+                  <use xlink:href="img/svgdefs.svg#icon-ig"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="list list__contact">
+        <div class="heading">Контактная информация</div>
+        <div class="contacts flexbox">
+          <div class="contact flexbox">
+            <svg class="icon icon__phone" width="16" height="16">
+              <use xlink:href="img/svgdefs.svg#icon-phone"></use>
+            </svg>
+            <div class="tel">
+              <a href="tel:+380504358888" class="tel__item">050-435-88-88</a>
+              <a href="tel:+380964358888" class="tel__item">096-435-88-88</a>
+              <button type="button" class="call">Перезвонить вам?</button>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="contact__item flexbox">
+              <svg class="icon icon__whatsapp" width="16" height="16">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-whatsapp"></use>
+              </svg>
+              <a href="https://api.whatsapp.com/send?phone=380504358888" class="footer__link">+380504358888</a>
+            </div>
+            <div class="contact__item flexbox">
+              <svg class="icon icon__telegram" width="16" height="16">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-telegram"></use>
+              </svg>
+              <a href="tg://resolve?domain=%2B380504358888" class="footer__link">+380504358888</a>
+            </div>
+            <div class="contact__item flexbox">
+              <svg class="icon icon__email" width="16" height="16">
+                <use xlink:href="img/svgdefs.svg#icon-email"></use>
+              </svg>
+              <a href="mailto:info@blackm.com.ua" class="footer__link">info@blackm.com.ua</a>
+            </div>
+            <div class="contact__item flexbox">
+              <svg class="icon icon__location" width="16" height="16">
+                <use xlink:href="img/svgdefs.svg#icon-location"></use>
+              </svg>
+              <div class="footer__address">01001, г. Киев, ул. Еспланадная, 34/2 «А».</div>
+              <a class="footer__link__address" href="/kontaktnaya-informatsiya/">Карта проезда</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="btn__scroll">
+    <svg class="icon icon__arrow__left" width="16" height="16">
+      <use xlink:href="img/svgdefs.svg#icon-arrow-left"></use>
+    </svg>
+  </div>
+
+  <!-- popup -->
+  <div class="popup popup__call">
+    <button type="button" class="close"></button>
+    <div class="heading">Перезвонить вам?</div>
+    <p>Укажите ваш номер телефона и имя. Мы свяжемся с вами в ближайшее время.</p>
+    <form action="#" method="post" class="form__call">
+      <label class="flexbox">
+        <span>Имя</span>
+        <input type="text" name="name">
+      </label>
+      <label class="flexbox">
+        <span>Телефон</span>
+        <input type="tel" name="tel">
+      </label>
+      <button type="submit" class="btn btn__submit">Отправить</button>
+    </form>
+  </div>
+  <div class="popup popup__phone" id="popup__contacts">
+    <button type="button" class="close"></button>
+    <div class="heading">Контакты</div>
+    <ul class="popup__phone__list phone phone__list">
+      <li class="phone__item">
+        <svg class="icon icon__phone" width="24" height="24">
+          <use xlink:href="img/svgdefs.svg#icon-phone2"></use>
+        </svg>
+        <a href="tel:+380504358888" data-index="1">050-435-88-88</a>
+      </li>
+      <li class="phone__item">
+        <a href="tel:+380964358888" data-index="2">096-435-88-88</a>
+      </li>
+      <li class="phone__item">
+        <svg class="icon icon__viber" width="24" height="24">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-viber2"></use>
+        </svg>
+        <a href="viber://chat?number=%2B380504358888">050-435-88-88</a>
+      </li>
+      <li class="phone__item">
+        <a href="viber://chat?number=%2B380964358888" class="main-nav__text">096-435-88-88</a>
+      </li>
+      <li class="phone__item">
+        <svg class="icon icon__telegram" width="24" height="24">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-telegram2"></use>
+        </svg>
+        <a href="tg://resolve?domain=%2B380504358888">+380504358888</a>
+      </li>
+      <li class="phone__item">
+        <svg class="icon icon__whatsapp" width="24" height="24">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#icon-whatsapp2"></use>
+        </svg>
+        <a href="https://api.whatsapp.com/send?phone=380504358888">+380504358888</a>
+      </li>
+      <li class="phone__item">
+        <button type="button" class="call btn__small">Заказать звонок</button>
+      </li>
+    </ul>
+  </div>
+  <div class="popup popup__basket" id="basket">
+    <button type="button" class="close"></button>
+    <div class="heading">Корзина</div>
+    <div class="basket__block flexbox">
+      <a href="#" class="basket__product flexbox">
+        <div class="basket__img">
+          <picture>
+            <img src="img/macpro.webp" alt="img">
+          </picture>
+        </div>
+        <div class="text">
+          <div class="name">Apple iPhone 13 128GB (Blue) (MLPK3)</div>
+          <div class="price">28 985 грн</div>
+        </div>
+      </a>
+      <div class="counter flexbox">
+        <div class="counter__item">
+          <div class="title">Количество</div>
+          <div class="amount flexbox">
+            <div class="amount__block flexbox">
+              <button type="button" class="btn__amount minus">-</button>
+              <div class="number">1</div>
+              <button type="button" class="btn__amount plus">+</button>
+            </div>
+            <button type="button" class="btn__clear">
+              <svg class="icon icon__basket" width="15" height="15">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#basket"></use>
+              </svg>
+            </button>
+
+          </div>
+        </div>
+        <div class="counter__item counter__price">
+          <div class="title">Стоимость</div>
+          <div class="price">28 985 грн</div>
+        </div>
+      </div>
+    </div>
+    <div class="total flexbox">
+      <button class="back flexbox">
+        <svg class="icon icon__left" width="30" height="30">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/svgdefs.svg#left"></use>
+        </svg>
+        Вернуться к выбору товара
+      </button>
+      <div class="total__cost">
+        <div class="total__cost__block flexbox">
+          <p>Итого</p>
+          <div class="total__number">28 985 грн</div>
+        </div>
+        <a href="checkout.html" class="btn btn__order">Оформить заказ</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- javascript -->
+  <script src="js/libs.min.js"></script>
+  <script src="js/js.js"></script>
+
+
+
+</body>
+
+</html>
